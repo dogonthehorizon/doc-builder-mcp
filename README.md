@@ -4,11 +4,7 @@ A Model Context Protocol (MCP) server for building and querying document collect
 
 ## Features
 
-- Create and manage document collections with ChromaDB
 - Ingest documents to collections with automatic chunking
-- Vector-based semantic search across your document collection
-- Support for text, binary, and image files
-- Persistent storage for saving your vector database between sessions
 
 ## Installation
 
