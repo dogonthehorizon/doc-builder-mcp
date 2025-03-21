@@ -1,0 +1,15 @@
+[project]
+name = "doc-builder-mcp"
+version = "0.1.0"
+description = "Document builder MCP server for ChromaDB"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "chonkie>=0.5.1",
+    "chromadb>=0.6.3",
+    "mcp>=1.2.0",
+]
+
+[project.scripts]
+doc-builder-mcp = "main:main"
